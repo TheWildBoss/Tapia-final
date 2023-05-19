@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{AA74AAD6-84C9-4E8C-8A0E-32E44CE69A08}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Caminando_con_don_bosco</RootNamespace>
+    <AssemblyName>Caminando con don bosco</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Don bosco 3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Don bosco 3.Designer.cs">
+      <DependentUpon>Don bosco 3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Don bosco y su vida.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Don bosco y su vida.Designer.cs">
+      <DependentUpon>Don bosco y su vida.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Don bosco y vida 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Don bosco y vida 2.Designer.cs">
+      <DependentUpon>Don bosco y vida 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Juego Tenis de mesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Juego Tenis de mesa.Designer.cs">
+      <DependentUpon>Juego Tenis de mesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu Tenis de mesa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu Tenis de mesa.Designer.cs">
+      <DependentUpon>Menu Tenis de mesa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Historia salesiana 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historia salesiana 2.Designer.cs">
+      <DependentUpon>Historia salesiana 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Historia salesiana.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Historia salesiana.Designer.cs">
+      <DependentUpon>Historia salesiana.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IATESA 2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IATESA 2.Designer.cs">
+      <DependentUpon>IATESA 2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Juego Don Bosco quiziz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Juego Don Bosco quiziz.Designer.cs">
+      <DependentUpon>Juego Don Bosco quiziz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="juego don bosco text.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juego don bosco text.Designer.cs">
+      <DependentUpon>juego don bosco text.cs</DependentUpon>
+    </Compile>
+    <Compile Include="juegos don bosco crusigrama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juegos don bosco crusigrama.Designer.cs">
+      <DependentUpon>juegos don bosco crusigrama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu de quizzis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu de quizzis.Designer.cs">
+      <DependentUpon>Menu de quizzis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="menu e instrucciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="menu e instrucciones.Designer.cs">
+      <DependentUpon>menu e instrucciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quizz ritos liturgicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quizz ritos liturgicos.Designer.cs">
+      <DependentUpon>Quizz ritos liturgicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quizz salesianidad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quizz salesianidad.Designer.cs">
+      <DependentUpon>Quizz salesianidad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QUIZZIS IATESA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QUIZZIS IATESA.Designer.cs">
+      <DependentUpon>QUIZZIS IATESA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Quizzis vida de don bosco.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quizzis vida de don bosco.Designer.cs">
+      <DependentUpon>Quizzis vida de don bosco.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Registrarse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Registrarse.Designer.cs">
+      <DependentUpon>Registrarse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ritos liturgicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ritos liturgicos.Designer.cs">
+      <DependentUpon>Ritos liturgicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ritos Liturgicos2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ritos Liturgicos2.Designer.cs">
+      <DependentUpon>Ritos Liturgicos2.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Don bosco 3.resx">
+      <DependentUpon>Don bosco 3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Don bosco y su vida.resx">
+      <DependentUpon>Don bosco y su vida.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Don bosco y vida 2.resx">
+      <DependentUpon>Don bosco y vida 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Juego Tenis de mesa.resx">
+      <DependentUpon>Juego Tenis de mesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu Tenis de mesa.resx">
+      <DependentUpon>Menu Tenis de mesa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia salesiana 2.resx">
+      <DependentUpon>Historia salesiana 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Historia salesiana.resx">
+      <DependentUpon>Historia salesiana.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IATESA 2.resx">
+      <DependentUpon>IATESA 2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Juego Don Bosco quiziz.resx">
+      <DependentUpon>Juego Don Bosco quiziz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juego don bosco text.resx">
+      <DependentUpon>juego don bosco text.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juegos don bosco crusigrama.resx">
+      <DependentUpon>juegos don bosco crusigrama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu de quizzis.resx">
+      <DependentUpon>Menu de quizzis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="menu e instrucciones.resx">
+      <DependentUpon>menu e instrucciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Quizz ritos liturgicos.resx">
+      <DependentUpon>Quizz ritos liturgicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quizz salesianidad.resx">
+      <DependentUpon>Quizz salesianidad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QUIZZIS IATESA.resx">
+      <DependentUpon>QUIZZIS IATESA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quizzis vida de don bosco.resx">
+      <DependentUpon>Quizzis vida de don bosco.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Registrarse.resx">
+      <DependentUpon>Registrarse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ritos liturgicos.resx">
+      <DependentUpon>Ritos liturgicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ritos Liturgicos2.resx">
+      <DependentUpon>Ritos Liturgicos2.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo circular floral negro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo circular floral negro %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foto de don bosco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Borde 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo salesiano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo 1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-03-23 at 9.39.55 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen don bosco menu.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo de don bosco.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo_de_don_bosco-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen niño adorando eel pan.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo para el menu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinta_de_opciones-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-03-27 at 9.54.10 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-03-27 at 10.01.03 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7f44041f-9dd8-4d6a-9e08-ef202f91fb21-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo historia salesiana.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp_Image_2023-03-27_at_10.18.18_PM-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo para texto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cuadro texto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Young-Don-Bosco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo de iatesa circular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\misa ritos liturgicos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\don bosco menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\don bosco imagen pagina 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sueño de don bosco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FUNDACION DE LOS SALESIANOS DE DON BOSCO.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\expasion de los salesianos por el mundo .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salesianos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quizzis don bosco .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\respuesta incorrecta 1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\incorrecta 2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quizzis.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo del menu de quizzis.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo quizzis 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quizzis Iatesa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FONDO NUEVO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-04-30 at 8.24.08 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\historia salesiana.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-04-30 at 9.40.18 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-05-01 at 11.19.16 AM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-05-01 at 11.24.35 AM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-05-01 at 12.56.41 PM.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img6.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img7.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img5.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img4.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\img1.jfif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CartaGirada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de quiziz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Imagen de quiziz1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tenis de mesa menu.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector_Ping_Pong_Table_Tennis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vector_Ping_Pong_Table_Tennis-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mesa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1271018882-1024x1024-transformed.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pelota.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
